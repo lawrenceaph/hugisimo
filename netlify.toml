@@ -8,3 +8,10 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+  
+  [[redirects]]
+  from = "/posts"
+  status = 200
+  conditions = {Role= ["admin"]}
+  force = true
+  
