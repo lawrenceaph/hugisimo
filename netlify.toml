@@ -10,7 +10,7 @@
   command = "yarn build:preview"
   
   [[redirects]]
-  from = "/posts/*"
+  from = "/post/*"
   status = 200
   conditions = {Role= ["admin"]}
   force = true
